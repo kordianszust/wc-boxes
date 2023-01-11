@@ -9,4 +9,8 @@
  * Author:            Kordian Szust
  */
 
+
+// functions
+include( plugin_dir_path( __FILE__ ) . 'inc/register.php');
+
 ?>
