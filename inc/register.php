@@ -5,7 +5,7 @@ function register_box_product_type() {
     class WC_Box extends WC_Product {
 
         public function __construct( $product ) {
-            $this->product_type = 'demo';
+            $this->product_type = 'box';
             parent::__construct( $product );
         }
     }
